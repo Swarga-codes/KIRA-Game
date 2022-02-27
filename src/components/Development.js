@@ -17,7 +17,7 @@ const Development = () => {
                 </div>
             </div>
             <p className='devp'>Art by <span className='devspan'><a href="https://www.instagram.com/antonitudisco/" target="_blank"> Antoni Tudisco</a></span> </p>
-            <p className='devp1'> & <br /> <span className='devspan'><a href="https://www.instagram.com/marctudisco/?hl=en" target="_blank">Mark Tudisco</a></span> </p>
+            <p className='devp1'> & <br /> <span className='devspan'><a href="https://www.instagram.com/marctudisco/?hl=en" target="_blank">Marc Tudisco</a></span> </p>
 
            
         </div>
