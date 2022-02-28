@@ -16,6 +16,7 @@ const Development = () => {
                 <div>
                 <a href="https://www.waytoodigital.com/" target='_blank'>
                 <img className='devimg2' src={wtd} alt="" />
+                
                 </a>
                 <p>WaytooDigital</p>
                 </div>
