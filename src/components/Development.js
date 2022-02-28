@@ -8,11 +8,15 @@ const Development = () => {
             <h1>Development By</h1>
             <div className="img">
                 <div>
+                <a href='https://www.paramlabs.io/' target='_blank'>
                 <img className='devimg1' src={vector} alt="" />
+                </a>
                 <p>Param labs</p>
                 </div>
                 <div>
+                <a href="https://www.waytoodigital.com/" target='_blank'>
                 <img className='devimg2' src={wtd} alt="" />
+                </a>
                 <p>WaytooDigital</p>
                 </div>
             </div>
