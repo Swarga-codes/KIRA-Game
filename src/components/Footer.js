@@ -7,7 +7,7 @@ const Footer = () => {
            
         <p>KIRA is not just an NFT, but an adventure</p>
             <p> to become the most powerful Being in the </p>
-            <p> Universe...</p>
+            <p> Kiraverse...</p>
        
 
 
