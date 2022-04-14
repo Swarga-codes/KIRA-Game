@@ -291,6 +291,33 @@ marquee{
 .res div{
    margin-top: 1rem;
 }
+.Popup{
+    width: 16rem;
+}
+.Popup h1{
+    font-size: 18px;
+    padding: 0 0rem;
+}
+.Popup input{
+    width: 14rem;
+    margin-left: 1rem;
+}
+.Popup button{
+    margin-left: 1rem;
+    width: 14rem;
+}
+.Popup img{
+    top: 2.7rem;
+    left: 1.5rem;
+}
+.mob{
+    margin-top: 0rem !important;
+}
+.Popup p{
+    padding-top: 1rem;
+    font-size: 10px;
+    line-height: 18px;
+}
 
 
 }
