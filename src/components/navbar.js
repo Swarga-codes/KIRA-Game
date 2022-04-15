@@ -61,7 +61,7 @@ window.addEventListener("load", function(){
       <input type="tel"   placeholder=" +1   |   Mobile Number" required  className='mob'/> */}
       <PhoneInput className='mob'
       international
-  placeholder= {value} Mobile Number
+  placeholder= "Mobile Number" 
   value={value}
   onChange={setValue}/>
       {/* <br /> */}
