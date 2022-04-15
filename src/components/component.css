@@ -206,10 +206,18 @@ text-align: center;
     height: 3rem;
     margin-top: 2rem;
     width: 24rem;
-    margin-left: 4rem;
+    margin-left: 5rem;
+   color: white;
     margin-bottom: 2rem;
     background: transparent;
     border: 1px solid white;
+    font-size: 18px;
+    padding-left: 1rem;
+}
+.PhoneInputCountry {
+    left: 5rem;
+    color: aliceblue;
+    font-size: 28px;
 }
 .Popup input::placeholder{
     font-family: Basement;
@@ -226,12 +234,14 @@ padding-left: 1rem;
 
 .Popup img{
     position: relative;
-    left: 4rem;
-    top: 0.7rem;
+    left: 0rem;
+    top: 0;
 }
 .mob{
     padding-left: 2rem;
-    margin-left: 1rem !important;
+    /* margin-left: 1rem !important; */
+    position: relative;
+    left: -5rem;
 }
 
 
@@ -312,13 +322,19 @@ marquee{
 }
 .mob{
     margin-top: 0rem !important;
+    margin-left: -3rem !important;
+    position: relative !important;
+    left: 0rem !important;
 }
 .Popup p{
     padding-top: 1rem;
     font-size: 10px;
     line-height: 18px;
 }
-
+.PhoneInputCountry{
+    left: 1rem;
+    font-size: 20px;
+}
 
 }
 @media screen and (max-width:991px){

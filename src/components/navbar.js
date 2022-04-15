@@ -9,7 +9,11 @@ import Hero2 from '../assests/Kira - 02.png'
 import Hero3 from '../assests/Kira -03.png'
 import React from 'react';
 import Popup from 'reactjs-popup';
-import Country from '../assests/US - United States.png'
+// import Country from '../assests/US - United States.png'
+
+
+import 'react-phone-number-input/style.css'
+import PhoneInput from 'react-phone-number-input'
 const Navbar = () => {
 // const[size, setSize] = useState();
 
@@ -17,7 +21,7 @@ const Navbar = () => {
 // const[responsive, isresponive] = useState(false);
 const [pop,setPop]=useState(false);
  
-
+const [value, setValue] = useState()
 
 
 window.addEventListener("load", function(){
@@ -53,9 +57,14 @@ window.addEventListener("load", function(){
       : 
       <div className="Popup" id='Popup1'>
       <h1>Kiraverse is coming...  Sign up to stay updated.</h1>
-      <img src={Country} alt="" />
-      <input type="tel"   placeholder=" +1   |   Mobile Number" required  className='mob'/>
-      <br />
+      {/* <img src={Country} alt="" />
+      <input type="tel"   placeholder=" +1   |   Mobile Number" required  className='mob'/> */}
+      <PhoneInput className='mob'
+      international
+  placeholder= {value} Mobile Number
+  value={value}
+  onChange={setValue}/>
+      {/* <br /> */}
       <button>Submit</button>
       <p>You will recieve Information related to the Kira. No Bull Whatsoever.</p>
   </div> 
